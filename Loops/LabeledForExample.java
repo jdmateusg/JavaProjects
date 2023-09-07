@@ -1,5 +1,4 @@
 
-package javaapplication13;
 
 public class LabeledForExample{
     public static void main(String[] args) {
