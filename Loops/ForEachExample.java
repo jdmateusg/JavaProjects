@@ -1,5 +1,5 @@
 
-package javaapplication13;
+
 
 public class ForEachExample{
     public static void main(String[] args){
