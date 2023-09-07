@@ -1,5 +1,4 @@
 
-package javaapplication13;
 
 public class PyramidExample2{
 
