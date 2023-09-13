@@ -4,9 +4,9 @@ public class SavingsAccount{
 	public double balanceEuro;
 	
 	public SavingsAccount(String owner, int balanceDollar){
-	owner = owner;
-	balanceDollar = balanceDollar;
-	balanceEuro = balanceDollar*0.85;
+	this.owner = owner;
+	this.balanceDollar = balanceDollar;
+	this.balanceEuro = balanceDollar*0.85;
 	}
 
 	public void addMoney(int balanceDollar){
@@ -17,6 +17,7 @@ public class SavingsAccount{
 
 public static void main(String[] args){
 	SavingsAccount zeusSavingsAccount = new SavingsAccount("Zeus", 1000);
+	System.out.println(zeusSavingsAccount.balanceDollar);
 	zeusSavingsAccount.addMoney(2000);
 	}
 } 
